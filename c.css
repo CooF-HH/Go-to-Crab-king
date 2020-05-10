@@ -1,0 +1,41 @@
+.c_background{width:100%;height:100%;background-size:100% 100%;position:absolute}
+.c_background_top{width:100%;height:80%;background-image:url("C:/Users/dell/Desktop/web项目/zhangyuge_1.jpg");
+background-size:100% 100%}
+.c_background_middle{width:100%;height:15.1%;background-image:url("C:/Users/dell/Desktop/web项目/pink_5.png");
+background-size:100% 100%}
+.c_background_botton{width:100%;height:15.3%;background-image:url("C:/Users/dell/Desktop/web项目/blue.png");
+background-size:100% 100%}
+#snowflake{width:100%;height:100%;position:absolute;top:0;left:0;overflow:hidden}
+.snowRoll{position:absolute;opacity:0;-webkit-animation-name:mysnow;-webkit-animation-duration:20s;
+	-moz-animation-name:mysnow;-moz-animation-duration:20s;height:80px}@-webkit-keyframes mysnow{0%{bottom:100%}50%{
+		-webkit-transform:rotate(1080deg)}100%{-webkit-transform:rotate(0deg) translate3d(50px,50px,50px)}}@-moz-keyframes mysnow
+		{0%{bottom:100%}50%{-moz-transform:rotate(1080deg)}100%{-moz-transform:rotate(0deg) translate3d(50px,50px,50px)}}
+.girl{background:url("C:/Users/dell/Desktop/web项目/baobao.png") -755px -0px no-repeat;position:absolute;
+	right:40%;top:37%;width:151px;height:291px}
+.girl-rotate{-webkit-animation-name:girl-rotate;-webkit-animation-duration:850ms;-webkit-animation-iteration-count:1;
+		-webkit-animation-timing-function:step-start;-webkit-animation-fill-mode:forwards;-moz-animation-name:girl-rotate;
+		-moz-animation-duration:850ms;-moz-animation-iteration-count:1;-moz-animation-timing-function:step-start;
+		-moz-animation-fill-mode:forwards}@-webkit-keyframes girl-rotate{0%{background-position:-604px -0px}16.7%
+		{background-position:-151px -0px}33.4%{background-position:-906px -0px}50.1%{background-position:-0px -0px}66.8%
+		{background-position:-302px -0px}83.5%{background-position:-453px -0px}100%{background-position:-604px -0px}}
+		@-moz-keyframes girl-rotate{16.7%{background-position:-151px -0px}33.4%{background-position:-906px -0px}50.1%
+		{background-position:-0px -0px}66.8%{background-position:-302px -0px}83.5%{background-position:-453px -0px}100%
+		{background-position:-604px -0px}}
+.bridge-bottom{position:absolute;width:41%;height:24%;left:29.5%;top:76%;overflow:hidden}
+	.stars{width:100%;height:100%;position:absolute}
+    .stars>li{position:absolute;width:30px;height:31px;background-image:url("C:/Users/dell/Desktop/web项目/star.png");
+    -webkit-animation-name:flash;-webkit-animation-timing-function:ease-in-out;
+    -webkit-animation-iteration-count:infinite;-webkit-animation-direction:alternate;-moz-animation-name:flash;
+    -moz-animation-timing-function:ease-in-out;-moz-animation-iteration-count:infinite;-moz-animation-direction:alternate}
+    .stars1{top:20%;left:30%;-webkit-animation-duration:5s;-moz-animation-duration:5s}
+    .stars2{top:15%;left:20%;-webkit-animation-duration:20s;-moz-animation-duration:20s}
+    .stars3{top:25%;left:85%;-webkit-animation-duration:15s;-moz-animation-duration:15s}
+    .stars4{top:30%;left:70%;-webkit-animation-duration:25s;-moz-animation-duration:25s}
+    .stars5{top:25%;left:20%;-webkit-animation-duration:30s;-moz-animation-duration:30s}
+    .stars6{top:10%;left:65%;-webkit-animation-duration:10s;-moz-animation-duration:10s}
+    .stars7{top:50%;left:35%;-webkit-animation-duration:10s;-moz-animation-duration:35s}
+    .stars8{top:40%;left:45%;-webkit-animation-duration:10s;-moz-animation-duration:45s}
+    .stars9{top:45%;left:60%;-webkit-animation-duration:10s;-moz-animation-duration:40s}
+    .stars10{top:55%;left:50%;-webkit-animation-duration:10s;-moz-animation-duration:50s}
+    @-webkit-keyframes flash{0%,50%,100%{opacity:1}25%,75%{opacity:0}}@-moz-keyframes 
+    flash{0%,50%,100%{opacity:1}25%,75%{opacity:0}}

@@ -1,0 +1,39 @@
+.layerB{position:relative}
+.b_background{width:100%;height:80%;background-image:url("C:/Users/dell/Desktop/web项目/hanbao.jpg");
+background-size:100% 100%;position:absolute}
+.b_background_preload{
+	background:url("C:/Users/dell/Desktop/web项目/hanbao.jpg") 
+no-repeat -9999px -9999px}
+.b_background_middle{width:100%;height:20%;position: relative;
+	background-image:url("C:/Users/dell/Desktop/web项目/pink_4.png");
+background-size:100% 100%;margin-top: 485px;}
+.b_background_botton{width:100%;height:19%;background-image:url("C:/Users/dell/Desktop/web项目/blue_1.png");
+background-size:100% 100%}
+.lamp-bright{background-image:url("C:/Users/dell/Desktop/web项目/hanbao.jpg")}
+.shop{width:39.5%;height:35.5%;position:absolute;left:29%;top:26.5%}
+.door{position:absolute;width:25%;height:80%;top:105%;height:80%;overflow:hidden;left:48%}
+.door-left,.door-right{width:50%;height:75%;position:absolute}
+.door-left{left:0;background:url("C:/Users/dell/Desktop/web项目/素材1_1.png");
+	background-size:100% 100%}
+.door-right{left:50%;background:url("C:/Users/dell/Desktop/web项目/素材1_2.png");
+background-size:100% 100%}
+.bird{min-width:230px;min-height:230px;top:10%;position:absolute;z-index:10;
+	right:-91px;background:url("C:/Users/dell/Desktop/web项目/shuimu_32.png") -190px 0 no-repeat}
+.birdFly{-webkit-animation-name:bird-slow;
+		-webkit-animation-duration:600ms;
+		-webkit-animation-timing-function:step-start;
+		-webkit-animation-iteration-count:infinite;
+		-moz-animation-name:bird-slow;
+		-moz-animation-duration:600ms;
+		-moz-animation-timing-function:step-start;
+		-moz-animation-iteration-count:infinite}
+		@-webkit-keyframes bird-slow{
+			0%{background-position:-182px 0}
+			50%{background-position:0 0}75%
+			{background-position:-91px 0}100%
+			{background-position:-182px 0}}
+			@-moz-keyframes bird-slow
+		{0%{background-position:-182px 0}
+		50%{background-position:0 0}75%
+		{background-position:-91px 0}
+		100%{background-position:-182px 0}}
